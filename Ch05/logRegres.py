@@ -82,7 +82,7 @@ def classifyVector(inX, weights):
     else: return 0.0
 
 def colicTest():
-    frTrain = open('horseColicTraining.txt'); frTest = open('horseColicTest.txt')
+    frTrain = open('horseColicTraining.txt'); frTest = open('../horseColicTest.txt')
     trainingSet = []; trainingLabels = []
     for line in frTrain.readlines():
         currLine = line.strip().split('\t')

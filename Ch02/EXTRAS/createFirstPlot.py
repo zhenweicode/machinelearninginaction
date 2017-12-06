@@ -3,13 +3,14 @@ Created on Oct 27, 2010
 
 @author: Peter
 '''
-from numpy import *
-import kNN
-import matplotlib
 import matplotlib.pyplot as plt
+from numpy import *
+
+from Ch02 import kNN
+
 fig = plt.figure()
 ax = fig.add_subplot(111)
-datingDataMat,datingLabels = kNN.file2matrix('/Users/xiezhenwei/Desktop/machinelearninginaction/Ch02/datingTestSet2.txt')
+datingDataMat,datingLabels = kNN.file2matrix('../datingTestSet2.txt')
 #ax.scatter(datingDataMat[:,1], datingDataMat[:,2])
 ax.scatter(datingDataMat[:,1], datingDataMat[:,2], 15.0*array(datingLabels), 15.0*array(datingLabels))
 ax.axis([-2,25,-0.2,2.0])
