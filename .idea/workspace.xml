@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b7939b6-b77f-434c-b40f-3957031d8dab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/machinelearninginaction.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch02/.idea/Ch02.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch02/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch02/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch02/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch02/testSet.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/.idea/Ch04.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/EXTRAS/testSet.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/11.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/12.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/13.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/14.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/15.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/16.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/17.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/18.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/19.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/20.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/22.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/23.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/24.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/25.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/ham/9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/11.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/12.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/13.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/14.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/15.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/16.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/17.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/18.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/19.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/20.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/22.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/23.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/24.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/25.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch04/email/spam/9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch07/old_adaboost.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch08/Old_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch15/err.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch15/junk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch15/myfile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch15/py27dbg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch15/wc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/Ch02/EXTRAS/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02/EXTRAS/createDist.py" afterPath="$PROJECT_DIR$/Ch02/EXTRAS/createDist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02/EXTRAS/createDist2.py" afterPath="$PROJECT_DIR$/Ch02/EXTRAS/createDist2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02/EXTRAS/createFirstPlot.py" afterPath="$PROJECT_DIR$/Ch02/EXTRAS/createFirstPlot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02/README.txt" afterPath="$PROJECT_DIR$/Ch02/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02/datingTestSet.txt" afterPath="$PROJECT_DIR$/Ch02/datingTestSet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02/datingTestSet2.txt" afterPath="$PROJECT_DIR$/Ch02/datingTestSet2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02/kNN.py" afterPath="$PROJECT_DIR$/Ch02/kNN.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch03/classifierStorage.txt" afterPath="$PROJECT_DIR$/Ch03/classifierStorage.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch03/lenses.txt" afterPath="$PROJECT_DIR$/Ch03/lenses.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch03/treePlotter.py" afterPath="$PROJECT_DIR$/Ch03/treePlotter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch03/trees.py" afterPath="$PROJECT_DIR$/Ch03/trees.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch04/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/Ch04/EXTRAS/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch04/EXTRAS/create2Normal.py" afterPath="$PROJECT_DIR$/Ch04/EXTRAS/create2Normal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch04/EXTRAS/monoDemo.py" afterPath="$PROJECT_DIR$/Ch04/EXTRAS/monoDemo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch04/bayes.py" afterPath="$PROJECT_DIR$/Ch04/bayes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/Ch05/EXTRAS/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/EXTRAS/plot2D.py" afterPath="$PROJECT_DIR$/Ch05/EXTRAS/plot2D.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/EXTRAS/plotGD.py" afterPath="$PROJECT_DIR$/Ch05/EXTRAS/plotGD.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/EXTRAS/plotSDerror.py" afterPath="$PROJECT_DIR$/Ch05/EXTRAS/plotSDerror.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/EXTRAS/sigmoidPlot.py" afterPath="$PROJECT_DIR$/Ch05/EXTRAS/sigmoidPlot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/horseColicTest.txt" afterPath="$PROJECT_DIR$/Ch05/horseColicTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/horseColicTraining.txt" afterPath="$PROJECT_DIR$/Ch05/horseColicTraining.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/logRegres.py" afterPath="$PROJECT_DIR$/Ch05/logRegres.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch05/testSet.txt" afterPath="$PROJECT_DIR$/Ch05/testSet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch06/EXTRAS/notLinSeperable.py" afterPath="$PROJECT_DIR$/Ch06/EXTRAS/notLinSeperable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch06/EXTRAS/plotRBF.py" afterPath="$PROJECT_DIR$/Ch06/EXTRAS/plotRBF.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch06/EXTRAS/plotSupportVectors.py" afterPath="$PROJECT_DIR$/Ch06/EXTRAS/plotSupportVectors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch06/svmMLiA.py" afterPath="$PROJECT_DIR$/Ch06/svmMLiA.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch06/testSet.txt" afterPath="$PROJECT_DIR$/Ch06/testSet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch06/testSetRBF.txt" afterPath="$PROJECT_DIR$/Ch06/testSetRBF.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch06/testSetRBF2.txt" afterPath="$PROJECT_DIR$/Ch06/testSetRBF2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch07/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/Ch07/EXTRAS/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch07/EXTRAS/simpleDataPlot.py" afterPath="$PROJECT_DIR$/Ch07/EXTRAS/simpleDataPlot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch07/adaboost.py" afterPath="$PROJECT_DIR$/Ch07/adaboost.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch07/horseColicTest2.txt" afterPath="$PROJECT_DIR$/Ch07/horseColicTest2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch07/horseColicTraining2.txt" afterPath="$PROJECT_DIR$/Ch07/horseColicTraining2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/abalone.txt" afterPath="$PROJECT_DIR$/Ch08/abalone.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/ex0.txt" afterPath="$PROJECT_DIR$/Ch08/ex0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/ex1.txt" afterPath="$PROJECT_DIR$/Ch08/ex1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/regression.py" afterPath="$PROJECT_DIR$/Ch08/regression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/setHtml/lego10030.html" afterPath="$PROJECT_DIR$/Ch08/setHtml/lego10030.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/setHtml/lego10179.html" afterPath="$PROJECT_DIR$/Ch08/setHtml/lego10179.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/setHtml/lego10181.html" afterPath="$PROJECT_DIR$/Ch08/setHtml/lego10181.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/setHtml/lego10189.html" afterPath="$PROJECT_DIR$/Ch08/setHtml/lego10189.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/setHtml/lego10196.html" afterPath="$PROJECT_DIR$/Ch08/setHtml/lego10196.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08/setHtml/lego8288.html" afterPath="$PROJECT_DIR$/Ch08/setHtml/lego8288.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/bikeSpeedVsIq_test.txt" afterPath="$PROJECT_DIR$/Ch09/bikeSpeedVsIq_test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/bikeSpeedVsIq_train.txt" afterPath="$PROJECT_DIR$/Ch09/bikeSpeedVsIq_train.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/ex0.txt" afterPath="$PROJECT_DIR$/Ch09/ex0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/ex00.txt" afterPath="$PROJECT_DIR$/Ch09/ex00.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/ex2.txt" afterPath="$PROJECT_DIR$/Ch09/ex2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/ex2test.txt" afterPath="$PROJECT_DIR$/Ch09/ex2test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/exp.txt" afterPath="$PROJECT_DIR$/Ch09/exp.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/exp2.txt" afterPath="$PROJECT_DIR$/Ch09/exp2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/expTest.txt" afterPath="$PROJECT_DIR$/Ch09/expTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/regTrees.py" afterPath="$PROJECT_DIR$/Ch09/regTrees.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/sine.txt" afterPath="$PROJECT_DIR$/Ch09/sine.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch09/treeExplore.py" afterPath="$PROJECT_DIR$/Ch09/treeExplore.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch10/kMeans.py" afterPath="$PROJECT_DIR$/Ch10/kMeans.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch10/places.txt" afterPath="$PROJECT_DIR$/Ch10/places.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch10/testSet.txt" afterPath="$PROJECT_DIR$/Ch10/testSet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch10/testSet2.txt" afterPath="$PROJECT_DIR$/Ch10/testSet2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch11/apriori.py" afterPath="$PROJECT_DIR$/Ch11/apriori.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch11/bills20DataSet.txt" afterPath="$PROJECT_DIR$/Ch11/bills20DataSet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch11/lawAssnRules.txt" afterPath="$PROJECT_DIR$/Ch11/lawAssnRules.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch11/meaning20.txt" afterPath="$PROJECT_DIR$/Ch11/meaning20.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch11/recent100bills.txt" afterPath="$PROJECT_DIR$/Ch11/recent100bills.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch11/recent20bills.txt" afterPath="$PROJECT_DIR$/Ch11/recent20bills.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch12/fpGrowth.py" afterPath="$PROJECT_DIR$/Ch12/fpGrowth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch13/extras/createFig1.py" afterPath="$PROJECT_DIR$/Ch13/extras/createFig1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch13/extras/createFig2.py" afterPath="$PROJECT_DIR$/Ch13/extras/createFig2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch13/extras/createFig3.py" afterPath="$PROJECT_DIR$/Ch13/extras/createFig3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch13/extras/createFig4.py" afterPath="$PROJECT_DIR$/Ch13/extras/createFig4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch13/pca.py" afterPath="$PROJECT_DIR$/Ch13/pca.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch13/secom.data" afterPath="$PROJECT_DIR$/Ch13/secom.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch13/testSet.txt" afterPath="$PROJECT_DIR$/Ch13/testSet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch13/testSet3.txt" afterPath="$PROJECT_DIR$/Ch13/testSet3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch14/0_5.txt" afterPath="$PROJECT_DIR$/Ch14/0_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch14/svdRec.py" afterPath="$PROJECT_DIR$/Ch14/svdRec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/kickStart.txt" afterPath="$PROJECT_DIR$/Ch15/kickStart.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/mrMean.py" afterPath="$PROJECT_DIR$/Ch15/mrMean.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/mrMeanMapper.py" afterPath="$PROJECT_DIR$/Ch15/mrMeanMapper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/mrMeanReducer.py" afterPath="$PROJECT_DIR$/Ch15/mrMeanReducer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/mrSVM.py" afterPath="$PROJECT_DIR$/Ch15/mrSVM.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/mrSVMkickStart.py" afterPath="$PROJECT_DIR$/Ch15/mrSVMkickStart.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/myout.txt" afterPath="$PROJECT_DIR$/Ch15/myout.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/pegasos.py" afterPath="$PROJECT_DIR$/Ch15/pegasos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/proximalSVM.py" afterPath="$PROJECT_DIR$/Ch15/proximalSVM.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/svmDat2.txt" afterPath="$PROJECT_DIR$/Ch15/svmDat2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/svmDat26" afterPath="$PROJECT_DIR$/Ch15/svmDat26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/svmDat27" afterPath="$PROJECT_DIR$/Ch15/svmDat27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/svmData.txt" afterPath="$PROJECT_DIR$/Ch15/svmData.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/testSet.txt" afterPath="$PROJECT_DIR$/Ch15/testSet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch15/testSet200.txt" afterPath="$PROJECT_DIR$/Ch15/testSet200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rst" afterPath="$PROJECT_DIR$/README.rst" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="kNN.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch02/kNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#89#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ch02/kNN.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="545" />
+    <option name="y" value="64" />
+    <option name="width" value="832" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="machinelearninginaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machinelearninginaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machinelearninginaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machinelearninginaction" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch02" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b7939b6-b77f-434c-b40f-3957031d8dab" name="Default" comment="" />
+      <created>1512558376164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512558376164</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ch02/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
