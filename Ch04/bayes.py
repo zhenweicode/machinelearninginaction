@@ -1,10 +1,22 @@
-'''
-Created on Oct 19, 2010
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
-@author: Peter
-'''
+"""
+朴素贝叶斯
+
+@Author: xie
+@Date: 2017/12/6
+"""
 from numpy import *
 
+"""
+词表到向量的转换函数，该函数创建了一些实验样本。
+postingList：是进行词条切分后的文档集合，这些文档来自斑点犬爱好者留言板。这些留言文本被切分成一系列的词条集合，标点符号从文本中去掉。
+classVec：是一个类别标签的集合。这里有两类，侮辱性和非侮辱性。这些文本的类别由人工标注，这些标注信息用于训练程序以便自动检测侮辱性留言。
+
+朴素贝叶斯分类器通常有两种实现方式:一种基于贝努利模型实现，一种基于多项式模型实现。
+这里采用前一种实现方式。该实现方式中并不考虑词在文档中出现的次数，只考虑出不出现，因此在这个意义上相当于假设词是等权重的。
+"""
 def loadDataSet():
     postingList=[['my', 'dog', 'has', 'flea', 'problems', 'help', 'please'],
                  ['maybe', 'not', 'take', 'him', 'to', 'dog', 'park', 'stupid'],
@@ -12,17 +24,25 @@ def loadDataSet():
                  ['stop', 'posting', 'stupid', 'worthless', 'garbage'],
                  ['mr', 'licks', 'ate', 'my', 'steak', 'how', 'to', 'stop', 'him'],
                  ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
-    classVec = [0,1,0,1,0,1]    #1 is abusive, 0 not
+    classVec = [0,1,0,1,0,1]     #1 代表侮辱性文字，0代表正常言论
     return postingList,classVec
-                 
+
+"""
+创建一个包含在所有文档中出现的不重复词的列表
+"""
 def createVocabList(dataSet):
-    vocabSet = set([])  #create empty set
+    vocabSet = set([])  # 创建一个空集
     for document in dataSet:
-        vocabSet = vocabSet | set(document) #union of the two sets
+        vocabSet = vocabSet | set(document) #创建两个集合的并集，|也是一个按位或(OR)操作符
     return list(vocabSet)
 
+"""
+输入参数为词汇表及某个文档，输出的是文档向量，向量的每一元素为1或0，分别表示词汇表中的单词在输入文档中是否出现。
+函数首先创建一个和词汇表等长的向量，并将其元素都设置为0 。
+接着，遍历文档中的所有单词，如果出现了词汇表中的单词，则将输出的文档向量中的对应值设为1。
+"""
 def setOfWords2Vec(vocabList, inputSet):
-    returnVec = [0]*len(vocabList)
+    returnVec = [0]*len(vocabList)   #创建一个其中所含元素都为0的向量
     for word in inputSet:
         if word in vocabList:
             returnVec[vocabList.index(word)] = 1
