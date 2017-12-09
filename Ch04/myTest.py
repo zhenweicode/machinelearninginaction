@@ -27,4 +27,32 @@ import bayes
 #
 # bayes.testingNB()
 
-bayes.spamTest()
+# bayes.spamTest()
+
+
+
+# import feedparser
+#
+# rss_url = 'http://www.oschina.net/news/rss'
+#
+# # 获得订阅
+# feeds = feedparser.parse(rss_url)
+#
+# # 获得rss版本
+# print(feeds.version)
+# # 获得Http头
+# print(feeds.headers)
+# print(feeds.headers.get('content-type'))
+#
+# # rss的标题
+# print(feeds['feed']['title'])
+# # 链接
+# print(feeds['feed']['link'])
+# # 子标题
+# print(feeds.feed.subtitle)
+# # 查看文章数量
+# print(len(feeds['entries']))
+# # 获得第一篇文章的标题
+# print(feeds['entries'][0]['title'])
+# # 获得第一篇文章的链接
+# print(feeds.entries[0]['link'])

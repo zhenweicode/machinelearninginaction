@@ -177,7 +177,7 @@ def spamTest():
 
     """
     随机构建训练集，这种随机选择数据的一部分作为训练集，而剩余部分作为测试集的过程称为留存交叉验证(hold-out cross validation)。
-    假定现在只完成了 一次迭代，那么为了更精确地估计分类器的错误率，就应该进行多次迭代后求出平均错误率。
+    假定现在只完成了一次迭代，那么为了更精确地估计分类器的错误率，就应该进行多次迭代后求出平均错误率。
     """
     trainingSet = range(50); testSet=[]
     for i in range(10):
@@ -200,6 +200,12 @@ def spamTest():
     print 'the error rate is: ',float(errorCount)/len(testSet)
     #return vocabList,fullText
 
+"""
+RSS源分类器及高频词去除函数
+该函数遍历词汇表中的每个词并统计它在文本中出现的次数，然后根据出现次数从高到低对词典进行排序，最后返回排序最高的30个单词。
+vocabList：一个包含在所有文档中出现的不重复词的列表
+fullText：将所有的文档解析后放到一个大的list中，允许重复
+"""
 def calcMostFreq(vocabList,fullText):
     import operator
     freqDict = {}
@@ -208,41 +214,54 @@ def calcMostFreq(vocabList,fullText):
     sortedFreq = sorted(freqDict.iteritems(), key=operator.itemgetter(1), reverse=True) 
     return sortedFreq[:30]       
 
+"""
+使用两个RSS源作为参数。
+与spamTest()函数几乎相同，区别在于这里访问的是RSS源而不是文件，然后排序最高的30个单词并将他们移除
+（注意移除只是为了测试，移除后错误率甚至会上升，实际上可以将一些白名单词放进去）
+"""
 def localWords(feed1,feed0):
     import feedparser
     docList=[]; classList = []; fullText =[]
-    minLen = min(len(feed1['entries']),len(feed0['entries']))
+    minLen = min(len(feed1['entries']),len(feed0['entries']))#文章数的较小值
     for i in range(minLen):
         wordList = textParse(feed1['entries'][i]['summary'])
         docList.append(wordList)
         fullText.extend(wordList)
-        classList.append(1) #NY is class 1
+        classList.append(1)
         wordList = textParse(feed0['entries'][i]['summary'])
         docList.append(wordList)
         fullText.extend(wordList)
         classList.append(0)
-    vocabList = createVocabList(docList)#create vocabulary
-    top30Words = calcMostFreq(vocabList,fullText)   #remove top 30 words
+    vocabList = createVocabList(docList)   #创建一个包含在所有文档中出现的不重复词的列表
+    top30Words = calcMostFreq(vocabList,fullText)
     for pairW in top30Words:
-        if pairW[0] in vocabList: vocabList.remove(pairW[0])
-    trainingSet = range(2*minLen); testSet=[]           #create test set
+        if pairW[0] in vocabList:
+            vocabList.remove(pairW[0])
+
+    #随机构建训练集
+    trainingSet = range(2*minLen); testSet=[]
     for i in range(20):
         randIndex = int(random.uniform(0,len(trainingSet)))
         testSet.append(trainingSet[randIndex])
         del(trainingSet[randIndex])  
     trainMat=[]; trainClasses = []
-    for docIndex in trainingSet:#train the classifier (get probs) trainNB0
+    for docIndex in trainingSet:
         trainMat.append(bagOfWords2VecMN(vocabList, docList[docIndex]))
         trainClasses.append(classList[docIndex])
     p0V,p1V,pSpam = trainNB0(array(trainMat),array(trainClasses))
+
+    #剩下的用来测试
     errorCount = 0
-    for docIndex in testSet:        #classify the remaining items
+    for docIndex in testSet:
         wordVector = bagOfWords2VecMN(vocabList, docList[docIndex])
         if classifyNB(array(wordVector),p0V,p1V,pSpam) != classList[docIndex]:
             errorCount += 1
     print 'the error rate is: ',float(errorCount)/len(testSet)
     return vocabList,p0V,p1V
 
+"""
+选择概率大于某个阈值的所有词
+"""
 def getTopWords(ny,sf):
     import operator
     vocabList,p0V,p1V=localWords(ny,sf)
@@ -250,6 +269,8 @@ def getTopWords(ny,sf):
     for i in range(len(p0V)):
         if p0V[i] > -6.0 : topSF.append((vocabList[i],p0V[i]))
         if p1V[i] > -6.0 : topNY.append((vocabList[i],p1V[i]))
+
+    #按照单词出现的条件概率排序，而不是calcMostFreq()中的词频
     sortedSF = sorted(topSF, key=lambda pair: pair[1], reverse=True)
     print "SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**SF**"
     for item in sortedSF:
